@@ -1,11 +1,9 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import VideoCard from '../components/VideoCard';
 // import { search } from '../api/youtube';
-import fakeYoutubeClient from '../api/fakeYoutubeClient';
-import Youtube from '../api/youtube';
-import { YoutubeApiContext, useYoutubeApi } from '../context/YoutubeApiContext';
+import { useYoutubeApi } from '../context/YoutubeApiContext';
 
 export default function Videos() {
   const { keyword } = useParams();

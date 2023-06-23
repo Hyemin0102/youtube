@@ -2,7 +2,6 @@ import { createContext, useContext } from "react";
 //import FakeYoutube from "../api/fakeYoutube";
 import Youtube from "../api/youtube";
 import YoutubeClient from "../api/youtubeClient";
-import fakeYoutubeClient from "../api/fakeYoutubeClient";
 
 export const YoutubeApiContext = createContext(); //YoutubeApiContext 함수 전역적으로 사용 가능
 

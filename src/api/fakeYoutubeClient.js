@@ -3,8 +3,6 @@
 import axios from "axios";
 
 export default class fakeYoutubeClient {
-  constructor() {}
-
   async search({ params }) {
     // return params.relatedToVideoId
     //   ? axios.get(`/videos/related.json`)
